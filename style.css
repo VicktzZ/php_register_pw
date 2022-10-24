@@ -1,0 +1,67 @@
+/* inconsolata-regular - latin */
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inconsolata-v31-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/inconsolata-v31-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inconsolata-v31-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inconsolata-v31-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inconsolata-v31-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inconsolata-v31-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d4c2e4;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    height: 85vh;
+}
+
+.container:not(.info) {
+    border-top-left-radius: 150px;
+}
+
+.info {
+    height: 85vh;
+    background: url(img/bg.svg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    border-bottom-right-radius: 150px;
+}
+
+form h1 {
+    font-family: 'Inconsolata';
+    font-size: 4em;
+}
+
+form input {
+    border-radius: 5px;
+}
+
+.login_wrapper {
+    font
+}
