@@ -1,16 +1,8 @@
 /* inconsolata-regular - latin */
 @font-face {
     font-family: 'Inconsolata';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/inconsolata-v31-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/inconsolata-v31-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/inconsolata-v31-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/inconsolata-v31-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/inconsolata-v31-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/inconsolata-v31-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
-  }
+    url: ('../font/Inconsolata.ttf')
+}
 
 * {
     padding: 0;
@@ -31,10 +23,22 @@ main {
     align-items: center;
 }
 
+.icon {
+    margin: 50px;
+}
+
+.form h1 {
+    margin-bottom: 40px;
+    font-family: "Inconsolata";
+}
+
+.form {
+    margin-left: 50px;
+}
+
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: 50%;
     padding: 20px;
     background-color: #fff;
@@ -45,9 +49,26 @@ main {
     border-top-left-radius: 150px;
 }
 
+.lightning_icon {
+    width: 50px;
+    height: 50px;
+    background: url(../img/bolt-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.info-icon {
+    background: url(../img/NFT\ blockchain.svg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 865.76px;
+    height: 6000px;
+    transform: scale(1);
+}
+
 .info {
     height: 85vh;
-    background: url(img/bg.svg);
+    background: url(../img/bg.svg);
     background-repeat: no-repeat;
     background-image: cover;
     border-bottom-right-radius: 150px;
@@ -61,7 +82,7 @@ form h1 {
 form input {
     border-radius: 5px;
 }
-
+/* 
 .login_wrapper {
     font
-}
+} */

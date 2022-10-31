@@ -14,3 +14,9 @@ Quando o usuário preenche os dados de login o sistema procura em uma tabela no 
 Se existir o usuário e a senha coincidir, a gente cria uma `SESSÃO`. Caso não exista, a gente pede para fazer o login novamente, até que se digite login e a senha corretamente; <br>
 
 Feito isso, a gente cria uma sessão, e com a sessão criada, em todos os módulos a primeira coisa que checamos é se existe uma sessão. Caso não exista, significa que o usuário não passou pelo login ou não existe. Nesse caso mandamos ele para o login novamente.
+
+---
+
+Toda vez que eu tenho que cadastrar qualuqer titpo de dado em uma tabela, eu tenho que crirar uma classe.<br>
+Além de facilitar a compreensão e a manuntenção do código, facilita também para criar aplicativos no padrão MVC. <br>
+Dentro de uma classe, temos todos os métodos para implementar um CRUD
